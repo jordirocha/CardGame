@@ -1,0 +1,39 @@
+.alicia {
+    background: url("/img/alicia.jpg") no-repeat center center / cover;
+}
+
+.aliens {
+    background: url("/img/aliens.jpg") no-repeat center center / cover;
+}
+
+.hg {
+    background: url("/img/hg.jpg") no-repeat center center / cover;
+}
+
+.once {
+    background: url("/img/once.jpg") no-repeat center center / cover;
+}
+
+.sp {
+    background: url("/img/sp.jpg") no-repeat center center / cover;
+}
+
+.tasm {
+    background: url("/img/tasm.jpg") no-repeat center center / cover;
+}
+
+.ts {
+    background: url("/img/ts.jpg") no-repeat center center / cover;
+}
+
+.lv {
+    background: url("/img/lv.jpg") no-repeat center center / cover;
+}
+
+.default {
+    background: url("/img/default.jpg") no-repeat center center / cover;
+}
+
+.col {
+    height: 240px;
+}
