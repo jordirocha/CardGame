@@ -85,11 +85,11 @@ function order(arrayColors) {
 function score() {
     if (fails >= 8) {
         alert(document.getElementById("nick").value + " loses");
-        window.location.href = "index.html";
+        window.location.href = "https://jordirocha.github.io/CardGame/";
     }
 
     if (corrects == 8) {
         alert(document.getElementById("nick").value + " wins");
-        window.location.href = "index.html";
+        window.location.href = "https://jordirocha.github.io/CardGame/";
     }
 }
