@@ -18,7 +18,7 @@ function validateInput() {
         document.getElementById("form").classList.add("d-none");
         displayTable();
     } else {
-        document.getElementById("failInput").innerHTML = `${nick} incorrect format`;
+        document.getElementById("failInput").innerHTML = `${nick} incorrect format, example: Jordi8`;
     }
 }
 
