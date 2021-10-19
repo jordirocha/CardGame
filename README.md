@@ -33,16 +33,27 @@ The objective of this project it's to practise events like ` click ` and uses of
 * CSS
 
 ### Project Directories
-    ├── dependencies.sh
-    ├── img
-    │   ├── demo.gif
-    │   └── icon.png
-    ├── main.py
-    ├── README.md
-    └── scripts
-        ├── convertToASCII.sh
-        ├── resultToGif.sh
-        └── splitToFrames.sh
+  B:.
+  |   index.html
+  |   README.md
+  |
+  +---css
+  |       index.css
+  |
+  +---img
+  |       alicia.jpg
+  |       aliens.jpg
+  |       default.jpg
+  |       demo.gif
+  |       hg.jpg
+  |       lv.jpg
+  |       once.jpg
+  |       sp.jpg
+  |       tasm.jpg
+  |       ts.jpg
+  |
+  \---js
+          index.js
 
 ## Getting Started
 It's hosted on GitHub Pages so just click [here](jordirocha.github.io/memorama).
