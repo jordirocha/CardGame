@@ -28,12 +28,12 @@
 <div align="center">
   <img src="https://github.com/jordirocha/Memorama/blob/main/img/demo.gif" />
 </div>
-ConvertGIFToASCII is a GUI program to convert our favorites GIF's into ASCII. 
-It's simple just select the file and then press button convert, after that a new terminal window will display it, showing the result.
+The objective of this project it's to practise events like `click` and use of `target` with JavaScript.  
 
 ### Built With
-* [Python](https://www.python.org/)
-* Bash Shell
+* JavaScript
+* HTML
+* CSS
 
 ### Project Directories
     ├── dependencies.sh
