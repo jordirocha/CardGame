@@ -23,7 +23,7 @@
 
 ### About the Project
 <div align="center">
-  <img src="https://github.com/jordirocha/Memorama/blob/main/img/demo.gif" />
+  <img src="https://github.com/jordirocha/Memorama/blob/main/img/demo.gif" heigth="80%"/>
 </div>
 The objective of this project it's to practise events like `click` and uses of `target` to modify classes on elements in DOM with JavaScript.  
 
