@@ -28,7 +28,7 @@
 <div align="center">
   <img src="https://github.com/jordirocha/Memorama/blob/main/img/demo.gif" />
 </div>
-The objective of this project it's to practise events like `click` and use of `target` with JavaScript.  
+The objective of this project it's to practise events like  `click`  and use of  `target`  with JavaScript.  
 
 ### Built With
 * JavaScript
