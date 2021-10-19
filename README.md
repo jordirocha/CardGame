@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://game-app-store.herokuapp.com/">
-    <img src="https://github.com/jordirocha/ConvertGIFToASCII/blob/main/img/icon.png" alt="Logo" width="140" height="140">
+    <img src="https://media.cdnandroid.com/item_images/62257/imagen-matchup-ejercita-tu-memoria-0thumb.jpeg" alt="Logo" width="140" height="140">
   </a>
 
   <h3 align="center">Memorama</h3>
