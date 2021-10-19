@@ -25,7 +25,7 @@
 <div align="center">
   <img src="https://github.com/jordirocha/Memorama/blob/main/img/demo.gif" />
 </div>
-The objective of this project it's to practise events like ` click ` and uses of ` target ` to modify classes on elements in DOM with JavaScript.  
+The objective of this project it's to practise events like `click` and uses of `target` to modify classes on elements in DOM with JavaScript.  
 
 ### Built With
 * JavaScript
