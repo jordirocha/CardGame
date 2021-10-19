@@ -18,9 +18,6 @@
   * [Built With](#built-with)
   * [Project Directories](#project-directories)
 * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-  * [Run app](#run-app)
 * [Contact](#contact)
 
 
@@ -28,7 +25,7 @@
 <div align="center">
   <img src="https://github.com/jordirocha/Memorama/blob/main/img/demo.gif" />
 </div>
-The objective of this project it's to practise events like  `click`  and use of  `target`  with JavaScript.  
+The objective of this project it's to practise events like `click` and uses of `target` to modify classes on elements in DOM with JavaScript.  
 
 ### Built With
 * JavaScript
@@ -48,28 +45,7 @@ The objective of this project it's to practise events like  `click`  and use of 
         └── splitToFrames.sh
 
 ## Getting Started
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-Must install these packages to run it perfectly:
-* [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)
-* [FFmpeg](https://github.com/FFmpeg/FFmpeg)
-* Tkinter
-
-### Installation
-I will bring you a script that make all this job, just execute it.
-
-       $ ./dependencies.sh
-       
-### Run app
-By command line:
-
-       python3 main.py
-       
-You can even execute like a shorcut (only works on KDE distros), clicking on `main.py`, by doing this first:
- 
-       $ chmod +x main.py
-
+It's hosted on GitHub Pages so just click [here](jordirocha.github.io/memorama).
 
 ## Contact
 
