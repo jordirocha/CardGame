@@ -38,7 +38,6 @@ The objective of this project it's to practise events like `click` and uses of `
 
     ├── css
     │   └── index.css
-    ├── directory.txt
     ├── img
     │   ├── alicia.jpg
     │   ├── aliens.jpg
