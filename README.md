@@ -14,6 +14,8 @@
 
 ## Table of Contents
 
+
+
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
   * [Project Directories](#project-directories)
@@ -33,27 +35,25 @@ The objective of this project it's to practise events like `click` and uses of `
 * CSS
 
 ### Project Directories
-    B:.
-    |   index.html
-    |   README.md
-    |
-    +---css
-    |       index.css
-    |
-    +---img
-    |       alicia.jpg
-    |       aliens.jpg
-    |       default.jpg
-    |       demo.gif
-    |       hg.jpg
-    |       lv.jpg
-    |       once.jpg
-    |       sp.jpg
-    |       tasm.jpg
-    |       ts.jpg
-    |
-    \---js
-            index.js
+
+  ├── css
+  │   └── index.css
+  ├── directory.txt
+  ├── img
+  │   ├── alicia.jpg
+  │   ├── aliens.jpg
+  │   ├── default.jpg
+  │   ├── demo.gif
+  │   ├── hg.jpg
+  │   ├── lv.jpg
+  │   ├── once.jpg
+  │   ├── sp.jpg
+  │   ├── tasm.jpg
+  │   └── ts.jpg
+  ├── index.html
+  ├── js
+  │   └── index.js
+  └── README.md
 
 ## Getting Started
 It's hosted on GitHub Pages so just click [here](https://jordirocha.github.io/Memorama/).
