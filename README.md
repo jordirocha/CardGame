@@ -56,7 +56,7 @@ The objective of this project it's to practise events like `click` and uses of `
             index.js
 
 ## Getting Started
-It's hosted on GitHub Pages so just click [here](jordirocha.github.io/memorama).
+It's hosted on GitHub Pages so just click [here](https://jordirocha.github.io/Memorama/).
 
 ## Contact
 
