@@ -26,7 +26,7 @@ function displayTable() {
     order(IMG_BOXES);
     let indexIMG = 0;
     let stadistics = document.createElement("p");
-    stadistics.innerHTML = `<p><strong>Intentos:</strong> <span id="fails">0</span>/8 <strong>Aciertos:</strong> <span
+    stadistics.innerHTML = `<p><strong>Intentos:</strong> <span id="fails">0</span>/16 <strong>Aciertos:</strong> <span
     id="corrects">0</span></p>`;
 
     document.getElementById("stadistics").appendChild(stadistics);
@@ -41,6 +41,7 @@ function displayTable() {
             box.classList.add("m-2");
             box.classList.add(IMG_BOXES[indexIMG]);
             box.classList.add("default");
+            box.classList.add("available");
             divRow.appendChild(box);
             indexIMG++;
         }
@@ -50,28 +51,36 @@ function displayTable() {
 
 function clickOnBox(e) {
     if (IMG_BOXES.includes(IMG_BOXES[e.target.id])) {
-        click++;
-        if (click == 1) {
-            firstBoxID = e.target.id;
-            document.getElementById(firstBoxID).classList.remove("default");
-        } else if (click == 2) {
-            secondtBoxID = e.target.id;
-            document.getElementById(secondtBoxID).classList.remove("default");
-        }
-        if (click >= 2) {
-            if (IMG_BOXES[firstBoxID] == IMG_BOXES[secondtBoxID]) {
-                corrects++;
-                document.getElementById("corrects").innerText = corrects;
-            } else {
+        if (e.target.classList.contains("available")) {
+            click++;
+            if (click == 1) {
+                firstBoxID = e.target.id;
+                document.getElementById(firstBoxID).classList.remove("default");
+            } else if (click == 2) {
+                if (firstBoxID != e.target.id) {
+                    secondtBoxID = e.target.id;
+                    document.getElementById(secondtBoxID).classList.remove("default");
+                } else {
+                    click--;
+                }
+            }
+            if (click >= 2) {
+                if (IMG_BOXES[firstBoxID] == IMG_BOXES[secondtBoxID]) {
+                    corrects++;
+                    document.getElementById("corrects").innerText = corrects;
+                    document.getElementById(firstBoxID).classList.remove("available");
+                    document.getElementById(secondtBoxID).classList.remove("available");
+                } else {
+                    setTimeout(function () {
+                        document.getElementById(firstBoxID).classList.add("default");
+                        document.getElementById(secondtBoxID).classList.add("default");
+                    }, 500);
+                }
                 fails++;
                 document.getElementById("fails").innerText = fails;
-                setTimeout(function () {
-                    document.getElementById(firstBoxID).classList.add("default");
-                    document.getElementById(secondtBoxID).classList.add("default");
-                }, 500);
+                score();
+                click = 0;
             }
-            score();
-            click = 0;
         }
     }
 }
@@ -83,7 +92,7 @@ function order(arrayColors) {
 }
 
 function score() {
-    if (fails >= 8) {
+    if (fails >= 16) {
         alert(document.getElementById("nick").value + " loses");
         window.location.href = "https://jordirocha.github.io/CardGame/";
     }
